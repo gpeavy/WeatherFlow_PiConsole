@@ -80,13 +80,13 @@ help get you started:
 The WeatherFlow PiConsole can be installed quickly and conveniently with the
 following command:
 ```
-curl -sSL https://peted-davis.github.io/wfpiconsole | bash
+curl -sSL https://gpeavy.github.io/wfpiconsole | bash
 ```
 Piping a command directly to ```bash``` is controversial, as it prevents the
 user from reading code that is about to run on their system. If you are worried
-about the contents of the installer, please examine the [first](https://raw.githubusercontent.com/peted-davis/peted-davis.github.io/master/wfpiconsole)
-and [second](https://raw.githubusercontent.com/peted-davis/WeatherFlow_PiConsole/master/wfpiconsole.sh)
-installation files in the Git repository before running the install command.
+about the contents of the installer, please examine the [first](https://raw.githubusercontent.com/gpeavy/gpeavy.github.io/master/wfpiconsole)
+and [second](https://raw.githubusercontent.com/gpeavy/WeatherFlow_PiConsole/master/wfpiconsole.sh)
+install files in the Git repository before running the install command.
 
 ### Configure and Run WeatherFlow PiConsole
 
@@ -263,7 +263,7 @@ This is the GUI library that drives the console.
 Prompt. This will install the WeatherFlow PiConsole.
 ```
 cd && mkdir wfpiconsole && cd wfpiconsole
-curl -sL https://api.github.com/repos/peted-davis/WeatherFlow_PiConsole/tarball -o PiConsole.tar.gz
+curl -sL https://api.github.com/repos/gpeavy/WeatherFlow_PiConsole/tarball -o PiConsole.tar.gz
 tar -xvf PiConsole.tar.gz --strip 1
 del /f PiConsole.tar.gz
 ```
